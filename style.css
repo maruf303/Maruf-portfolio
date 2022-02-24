@@ -10,6 +10,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    background-color: #222831;
+}
 .title::selection{
     background-color: #9FACBE;
     color: white;
@@ -180,7 +183,7 @@ section .title{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/bg.png") no-repeat center;
+    background: url("images/banner.png") no-repeat center;
     height: 100vh;
     color: #587993;
     min-height: 500px;
@@ -297,7 +300,8 @@ section .title{
 /* services section styling */
 .services, .teams{
     color:#587993;
-    background: #111;
+    background: #222831;
+    box-shadow: 0px 0px 15px #393E46;
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -334,6 +338,10 @@ section .title{
     margin: 10px 0 7px 0;
 }
 /* skills section styling */
+.skills{
+    background: #222831;
+    box-shadow: 0px 0px 15px #393E46;
+}
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
